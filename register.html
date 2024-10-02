@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>إنشاء حساب - Spos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>إنشاء حساب جديد</h1>
+        </header>
+        <main>
+            <form id="registerForm">
+                <label for="newUsername">اسم المستخدم:</label>
+                <input type="text" id="newUsername" required>
+
+                <label for="newPassword">كلمة المرور:</label>
+                <input type="password" id="newPassword" required>
+
+                <button type="submit">إنشاء حساب</button>
+            </form>
+            <div id="registerMessage" class="hidden"></div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Spos. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
